@@ -1,7 +1,13 @@
 #Github Notes
+#Add & Commit File Automatically
+ $ git commit -am "commit message." 
+#Delete branch
+ $ git branch -d branch-name
+#Pull content changes from a brachline
+ $ git pull origin branch-name
 #Merge branch with the main branch
  $ git merge 
-#Push changes to branchline
+#Push changes to branchline - web UI will provide "Compare & pull request" option. -> ensure pull request is made -> merge pull request 
  $ git push -u origin branch-name 
 #Compare Changes between branches
  $ git diff 	
