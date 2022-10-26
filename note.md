@@ -46,7 +46,30 @@ Git is a Tool for Version Control
  $ git branch -M main
  $ git push -u origin main
 
-#
+#Specify and add file to track
+ $ git add README.md
+#Track All files
+ $ git add .
+#Status of Remote Repository
+ $ git status 
+_>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+	modified:   note.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.note.md.swp
+	index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #Ignore Files & Directories
 ___
 
