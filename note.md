@@ -1,7 +1,9 @@
 #Github Notes
 #Reverting Git Commits
-
+# git reset file-name
+#DELETE HERE
 #HERE I AM ADDING SOME UNNECCESSARY CHANGE.
+#DELETE HERE
 
 #Add & Commit File Automatically
  $ git commit -am "commit message." 
