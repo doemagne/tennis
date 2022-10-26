@@ -1,6 +1,7 @@
 #Github Notes
 #Reverting Git Commits
 
+#HERE I AM ADDING SOME UNNECCESSARY CHANGE.
 
 #Add & Commit File Automatically
  $ git commit -am "commit message." 
