@@ -7,9 +7,6 @@
 $ git reset file-name
 $ git reset HEAD~1
 $ git reset [3isa9]
-#DELETE HERE
-#HERE I AM ADDING SOME UNNECCESSARY CHANGE.
-#DELETE HERE
 
 #Add & Commit File Automatically
  $ git commit -am "commit message." 
