@@ -1,6 +1,8 @@
 #Github Notes
 #Merge branch with the main branch
  $ git merge 
+#Push changes to branchline
+ $ git push -u origin branch-name 
 #Compare Changes between branches
  $ git diff 	
  $ git diff main
@@ -8,9 +10,11 @@
  $ git checkout -b new-branch-name
  #Navigate into Branch
  $ git checkout branch-name
+ $ git checkout main
 #Display Current Branch of remote repository
  $ git bramch
 
+#What is a Pull Request? -> a request for code from one repository to be put into a bramchline of another repository.
 
 #Git Branching
 #Master Branch [main] - naming convention for default branch
