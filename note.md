@@ -11,12 +11,18 @@ Git is a Tool for Version Control
 		Content Changes
 		we make further changes to components within our code
 			Who What When Where Why - 
-			what was done by who when no reason why could be found any where.
+			explaining / revealing : 
+				what was done by 
+					who 
+						when no reason 
+							why could be found any 
+								where and 
+									how it was revealed.
 		whatever was committed can be reverted
 	Revert Back to State
 	Track History
 	Work Collaborativvely with other people
-	Distrobuted Version Control Systems
+	Distributed Version Control Systems
 
 	
 #Clone - Bring a repository that is hosted somewhere like Github and in to a folder on your local machine.
@@ -35,6 +41,10 @@ Git is a Tool for Version Control
  $ git remote add origin https://github.com/doemagne/tennis.git
  $ git push -u origin main
 
+#…or push an existing repository from the command line
+ $ git remote add origin https://github.com/doemagne/tennis.git
+ $ git branch -M main
+ $ git push -u origin main
 
 #
 #Ignore Files & Directories
