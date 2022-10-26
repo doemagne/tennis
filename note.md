@@ -1,4 +1,16 @@
 #Github Notes
+
+#SSH Key Administration
+#Generating a SSH Key
+ $ ssh-keygen -t rsa -b 4096 -C "doemagne@gmail.com"
+#Copy to Clip board
+ $ pbcopy < ./path/to/file/name
+#Start SSH Agent in the background
+ $ eval "$(ssh-agent -s)"
+#Add Key to the SSH Agent
+ $ ssh-add -K ./path/to/git/key.pub
+
+
 #Basic Concepts
 Twitter
 Intagram
@@ -46,6 +58,10 @@ Git is a Tool for Version Control
  $ git branch -M main
  $ git push -u origin main
 
+#Push updates to the remote repository
+ $ git push -u origin main
+#Create stage and commit changes to stage
+ $ git commit -m "commited update files."
 #Specify and add file to track
  $ git add README.md
 #Track All files
