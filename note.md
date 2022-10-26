@@ -1,4 +1,11 @@
 #Github Notes
+#Create New Branch
+ $ git checkout -b new-branch-name
+ #Navigate into Branch
+ $ git checkout branch-name
+#Display Current Branch of remote repository
+ $ git bramch
+
 
 #Git Branching
 #Master Branch [main] - naming convention for default branch
