@@ -1,4 +1,9 @@
 #Github Notes
+#Merge branch with the main branch
+ $ git merge 
+#Compare Changes between branches
+ $ git diff 	
+ $ git diff main
 #Create New Branch
  $ git checkout -b new-branch-name
  #Navigate into Branch
