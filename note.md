@@ -1,5 +1,13 @@
 #Github Notes
 
+#Git Branching
+#Master Branch [main] - naming convention for default branch
+
+#Github Workflow 
+	write-code -> commit-changes -> pull-request
+#Github workflow - Local
+	write-code -> stage-changes -> commit-changes -> push-changes -> pull-request
+
 #SSH Key Administration
 #Generating a SSH Key
  $ ssh-keygen -t rsa -b 4096 -C "doemagne@gmail.com"
@@ -58,7 +66,7 @@ Git is a Tool for Version Control
  $ git branch -M main
  $ git push -u origin main
 
-#Push updates to the remote repository
+#Push updates to the remote repository -u set the default upstream branch name $ git push - can be used afterwards without specifying branch 
  $ git push -u origin main
 #Create stage and commit changes to stage
  $ git commit -m "commited update files."
