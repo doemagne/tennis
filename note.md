@@ -1,6 +1,12 @@
 #Github Notes
+#Forking - make a complete copy of the repository - so that you can commit your own changes to the code without changing the original code.
+#Web UI provide fork options for each repository
+#When a forked repository contain new changes -> a pull request can be made to the repository that contains the origibnal code.
+
 #Reverting Git Commits
-# git reset file-name
+$ git reset file-name
+$ git reset HEAD~1
+$ git reset [3isa9]
 #DELETE HERE
 #HERE I AM ADDING SOME UNNECCESSARY CHANGE.
 #DELETE HERE
