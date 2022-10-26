@@ -126,7 +126,6 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #Ignore Files & Directories
-___
 
 ## Always have a .gitignore file inside your repo directory
 ## to ignore directories list the directory name/ in the .gitignore file eg:
@@ -136,12 +135,10 @@ logs/
 keys/
 private/
 ##Files
-*.log
+.log
 main.log
 
 
-___
-**
 ##
 ##Restore File to earlier version - without Undoing a Commit - from $ git log --oneline
  $ git restore --source HEAD~1 ./path/to/file/name
